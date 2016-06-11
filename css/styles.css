@@ -1,0 +1,95 @@
+/*body {
+  background-image: url("../img/notepaper-background.jpg");
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
+.title {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3rem;
+  color: #212121;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.form {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: 2rem auto;
+}
+.item-input {
+  border: 1px solid #E1F5FE;
+  padding: .5rem 2rem;
+  width: 100%;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  border-radius: 30px 0 0 30px;
+}
+.item-input:focus {
+  outline: none;
+  box-shadow: 1px 0 2px 2px #03A9F4;
+}
+.item-add-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  padding: .55rem 1rem;
+  background-color: #03A9F4;
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.4rem;
+  transition: .2s;
+}
+.item-add-btn:hover {
+  background-color: #0277BD;
+  box-shadow: 0 2px 4px #212121;
+}
+
+
+.list {
+  width: 60%;
+  margin: 0 auto;
+}
+.new-item {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+  cursor: pointer;
+  list-style-type: none;
+  padding: .5rem 2rem;
+  transition: .2s;
+  border-radius: 30px;
+}
+.new-item:nth-child(even) {
+  background-color: #E1F5FE;
+}
+.new-item:nth-child(odd) {
+  background-color: #B3E5FC;
+}
+.completed {
+  background-color: lightgrey;
+  opacity: .4;
+}
+.new-item:hover {
+  background-color: #0277BD;
+  color: white;
+}
+.close {
+  text-align: right;
+  float: right;
+}
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
+.item-name {
+  text-align: left;
+}
