@@ -22,6 +22,15 @@
   width: 60%;
   margin: 2rem auto;
 }
+@media (max-width: 500px) {
+  .form {
+    width: 90%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
 .item-input {
   border: 1px solid #E1F5FE;
   padding: .5rem 2rem;
@@ -59,6 +68,11 @@
   width: 60%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .list {
+    width: 90%;
+  }
+}
 .new-item {
   font-family: "Shadows Into Light", cursive;
   font-size: 1.5rem;
@@ -74,9 +88,20 @@
 .new-item:nth-child(odd) {
   background-color: #B3E5FC;
 }
-.completed {
+.completed-section {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding: .2rem 2rem;
+  text-align: center;
+  transition: .2s;
   background-color: lightgrey;
+}
+.completed {
   opacity: .4;
+}
+.completed:hover {
+  opacity: .6;
 }
 .new-item:hover {
   background-color: #0277BD;
